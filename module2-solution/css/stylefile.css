@@ -1,67 +1,74 @@
-/* What ever it is for ?! */
+
 *{box-sizing: border-box;
-  margin: auto;
-  padding: 0;}
-
-#ptext{clear: both;
-	text-align: left;}
-
-#p1{border: 1px black solid;
-	background-color: #f0a835; 
-	width: 150px;
-	height: 40px;
-	font-size: 28px;
-	float: right;
-	position: relative;
-	right: -11px;
-	top: -21px;
-		}
-
-#p2{border: 1px black solid;
-	background-color: #FA5858; 
-	width: 150px;
-	height: 40px;
-	font-size: 28px;
-	float: right;
-	position: relative;
-	right: -11px;
-	top: -21px;
+	border-radius: 15px;
+	margin: 0 auto;
 	}
-
-#p3{border: 1px black solid;
-	background-color: #58FA58;
-	width: 150px;
-	height: 40px;
-	font-size: 28px;
-	float: right;
-	position: relative;
-	right: -11px;
-	top: -21px;
-	}	
-
-#box {
-	border: 2px black solid;
-	background-color: #d6d190;
-	margin: 10px;
-	padding: 10px;
-	padding-top: 20px;
-	}
-
-#test{width: 100%;
-align-items: center;}
-
-.row{
-	width: 100%;
-	}
-
-
-h1 {margin-top: 20px;
-	margin-bottom: 20px;}
 
 body {
  	  font-family: Arial, sans-serif;
  	  text-align: center;
  	  }
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+
+#ptext{clear: both;
+		text-align: left;}
+
+#pC{border: 1px black solid;
+	background-color: #ffd573;
+	width: 150px;
+	height: 40px;
+	font-size: 28px;
+	
+	float: right;
+	position: relative;
+	right: -11px;
+	top: -6px;
+	}
+
+#pB{border: 1px black solid;
+	background-color: #b57b7b;
+	width: 150px;
+	height: 40px;
+	font-size: 28px;
+	
+	float: right;
+	position: relative;
+	right: -11px;
+	top: -6px;
+	}
+
+#pV{border: 1px black solid;
+	background-color: #124f19;
+	color:white;
+	width: 150px;
+	height: 40px;
+	font-size: 28px;
+	
+	float: right;
+	position: relative;
+	right: -11px;
+	top: -6px;
+	}
+
+#box {
+	border: 1px black solid;
+	background-color: #d1d1d1;
+	margin: 10px;
+	padding: 10px;
+	padding-top: 5px;
+	}
+
+#container {
+  display:         flex;
+  flex-wrap:       wrap;
+  justify-content: center;
+}
+
 
 /* Large Size Device - Columns */
 @media (min-width: 992px) 
@@ -169,7 +176,7 @@ body {
 		}
 	 .col-md-10 
 		{
-	 	width: 83.33%;
+	 	width: 86.33%;
 		}
 	 .col-md-11
 		{
